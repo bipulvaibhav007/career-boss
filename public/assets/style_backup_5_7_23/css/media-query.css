@@ -1,0 +1,359 @@
+@media screen and (max-width: 1200px) {
+    .banner {
+        height: 440px;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        width: 90px;
+    }
+
+    .admission-btn {
+        font-size: 14px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 17px;
+        margin: 0 11px;
+    }
+
+    .banner-content h1 {
+        margin-bottom: 12px;
+        font-size: 34px;
+    }
+
+    .banner-content p {
+        margin-bottom: 25px;
+    }
+
+    .help-us-panel {
+        padding: 35px;
+        background-position: right;
+    }
+
+    .scaner {
+        width: 164px !important;
+    }
+
+    .app-panel img {
+        width: 124px;
+    }
+
+    .app-panel {
+        padding: 15px 0;
+    }
+
+    .mobile-panel figure img {
+        width: 64%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1240px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+
+    /************mobile-manu***********/
+
+    .navbar-toggler-icon {
+        display: block;
+        height: 2px;
+        background-size: 100%;
+        background-color: #fff;
+        margin-bottom: 7px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 82px;
+        padding: 12px 0 4px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0 16px !important;
+        border: none !important;
+        background-color: #fff !important;
+        outline: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        position: relative;
+        height: 40px;
+    }
+
+    .navbar-toggler span {
+        width: 35px;
+        height: 4px;
+        margin: 7px 0px;
+        display: block;
+        background: #c02028;
+        font-size: 18px;
+        border-radius: 50px;
+        transition: all .5s ease-in-out;
+    }
+
+    .navbar-toggler.collapsed span {
+        margin: 6px 0px !important;
+        transform: rotate(0deg) !important;
+    }
+
+    .navbar-toggler.collapsed span.bar1 {
+        width: 20px;
+        margin-top: 0 !important;
+    }
+
+    .navbar-toggler.collapsed span.bar3 {
+        width: 20px;
+        margin: 0 0 auto auto !important;
+        display: block;
+    }
+
+    .navbar-toggler span.bar3 {
+        display: none;
+    }
+
+    .navbar-toggler span.bar2 {
+        transform: rotate(-45deg);
+        margin-top: -10px;
+    }
+
+    .navbar-toggler span.bar1 {
+        width: 35px;
+        transform: rotate(45deg);
+        margin-top: 7px;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        position: fixed;
+        width: 0;
+        visibility: hidden;
+        opacity: 0;
+        height: 100vh;
+        left: 0;
+        top: 69px;
+        padding: 0;
+        border-top: 2px solid #bc2024;
+        transition: all .1s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    /************mobile-manu***********/
+
+    .panel-space {
+        padding: 30px 0;
+    }
+
+    .admission-btn {
+        border: 3px solid #fff;
+        color: #fff;
+        position: absolute;
+        right: 109px;
+    }
+
+    .admission-btn span {
+        background-color: #bc2024;
+        color: #fff;
+    }
+
+    .fixed-header .admission-btn {
+        border: 3px solid #bc2024;
+        color: #bc2024;
+        position: absolute;
+        right: 109px;
+    }
+
+    .fixed-header .admission-btn span {
+        background-color: #fff;
+        color: #144993;
+    }
+
+    .banner {
+        height: 313px;
+        background-position: right;
+    }
+
+    .banner-content p {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .banner-content h1 {
+        font-size: 27px;
+        margin-top: 53px;
+    }
+
+    .learning-box {
+        border-left: 0;
+        border-bottom: 3px solid #aa1c9d;
+    }
+
+    .industries-box .link-btn {
+        padding: 10px 7px;
+        font-size: 15px;
+    }
+
+    #footer .container>.row {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-panel figure img {
+        width: 100%;
+    }
+
+    .logo-slider .item {
+        height: 100px;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color: #144993 !important;
+    }
+    .drop-down {
+        padding: 0 0 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .drop-down-list {
+        border-radius: 0;
+    }
+    .drop-down-list .nav-item .nav-link {
+        padding: 4px 23px !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .admission-btn, .fixed-header .admission-btn {
+        border: 2px solid #bc2024;
+        color: #bc2024;
+        right: 92px;
+        top: -1px;
+        padding: 6px 22px 11px;
+        font-size: 14px;
+    }
+    .fixed-header .admission-btn span {
+        background-color: #bc2024;
+    color: #fff;
+    }
+    .h3, h3 {
+        font-size: 20px !important;
+    }
+
+    .h5, h5 {
+        font-size: 18px;
+    }
+
+    header {
+        background-color: #fff;
+    }
+    .banner {
+        height: auto;
+        background-position: right;
+        padding: 40px 0;
+        background-color: #bc2024;
+        background-image: none !important;
+        margin-top: 69px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        color: #fff;
+    }
+    .banner-content p {
+        margin-bottom: 20px;
+        width: 100%;
+        color: #fff;
+    }
+    .banner-content .link-btn {
+        background-color: #144993;
+        border: 1px solid transparent;
+    }
+    .banner-content .link-btn:hover {
+        background-color: transparent;
+        border-color: #fff;
+    }
+    .video-banenr {
+        border-right: 0;
+    }
+    .industries-box .link-btn {
+        padding: 10px 20px;
+    }
+    .scaner {
+        width: 100px !important;
+    }
+    .app-panel {
+        text-align: center;
+        padding: 6px 0 0 0;
+    }
+    .app-panel span {
+        margin: 0 25px;
+    }
+    .app-panel img {
+        width: 100px;
+    }
+    .mobile-panel {
+        padding: 30px 0;
+    }
+    .help-us-panel {
+        padding: 15px;
+        background-position: right;
+        background-image: none !important;
+        background-color: #fff;
+        text-align: center;
+    }
+    .help-us p br {
+        display: none;
+    }
+    .help-us-panel h3, .help-us-panel p {
+        margin-bottom: 20px !important;
+    }
+    .link-btn {
+        font-size: 14px;
+    }
+    .video-panel .modal-content {
+        width: 96%;
+        max-width: 100%;
+    }
+    .video-panel .modal-content {
+        width: 96%;
+        max-width: 100%;
+        transform: translate(-52%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+    .video-panel .modal-content iframe {
+        height: 287px !important;
+    }
+    .user-link ul {
+        column-count: 1;
+    }
+    .copyright-panel p, .copyright-panel a {
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer-link ul li:last-child a {
+        margin-bottom: 0;
+    }
+    
+    
+}

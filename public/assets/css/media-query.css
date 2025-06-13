@@ -1,0 +1,933 @@
+@media screen and (max-width: 1200px) {
+    .banner {
+        height: 440px;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        width: 90px;
+    }
+
+    .admission-btn {
+        font-size: 14px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 17px;
+        margin: 0 11px;
+    }
+
+    .banner-content h1 {
+        margin-bottom: 12px;
+        font-size: 34px;
+    }
+
+    .banner-content p {
+        margin-bottom: 25px;
+    }
+
+    .help-us-panel {
+        padding: 35px;
+        background-position: right;
+    }
+
+    .scaner {
+        width: 164px !important;
+    }
+
+    .app-panel img {
+        width: 124px;
+    }
+
+    .app-panel {
+        padding: 15px 0;
+    }
+
+    .mobile-panel figure img {
+        width: 64%;
+    }
+
+    .cms-banner {
+        padding-top: 48px;
+    }
+
+    .Unique-adva {
+        padding: 17px 15px 11px;
+    }
+
+    .Unique-adva img {
+        width: 50px;
+    }
+
+    .Unique-adva p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .wonner {
+        height: 230px;
+    }
+
+    .team-panel {
+        height: 350px;
+    }
+
+    .video-cms-banner .blank-btn {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .link-btn {
+        padding: 5px 13px;
+    }
+
+    .learning-box {
+        min-height: 150px;
+    }
+
+    .blog-post figure {
+        height: 200px;
+    }
+
+    .blog-right-box figure {
+        width: 190px;
+        height: 190px;
+    }
+
+    .blog-banner {
+        background-position: 62% !important;
+    }
+
+    .drop-down-list .nav-link {
+        margin: 0 !important;
+    }
+
+    .homepage-banner .banner-content h1 {
+        font-size: 45px;
+    }
+
+    .homepage-banner {
+        height: 580px;
+    }
+
+    .homepage-banner .banner-content p {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1240px !important;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    .navbar-toggler-icon {
+        display: block;
+        height: 2px;
+        background-size: 100%;
+        background-color: #fff;
+        margin-bottom: 7px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 82px;
+        padding: 12px 0 4px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0 16px !important;
+        border: none !important;
+        background-color: #fff !important;
+        outline: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        position: relative;
+        height: 40px;
+    }
+
+    .navbar-toggler span {
+        width: 35px;
+        height: 4px;
+        margin: 7px 0px;
+        display: block;
+        background: #c02028;
+        font-size: 18px;
+        border-radius: 50px;
+        transition: all .5s ease-in-out;
+    }
+
+    .navbar-toggler.collapsed span {
+        margin: 6px 0px !important;
+        transform: rotate(0deg) !important;
+    }
+
+    .navbar-toggler.collapsed span.bar1 {
+        width: 20px;
+        margin-top: 0 !important;
+    }
+
+    .navbar-toggler.collapsed span.bar3 {
+        width: 20px;
+        margin: 0 0 auto auto !important;
+        display: block;
+    }
+
+    .navbar-toggler span.bar3 {
+        display: none;
+    }
+
+    .navbar-toggler span.bar2 {
+        transform: rotate(-45deg);
+        margin-top: -10px;
+    }
+
+    .navbar-toggler span.bar1 {
+        width: 35px;
+        transform: rotate(45deg);
+        margin-top: 7px;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        position: fixed;
+        width: 0;
+        visibility: hidden;
+        opacity: 0;
+        height: 100vh;
+        left: 0;
+        top: 69px;
+        padding: 0;
+        border-top: 2px solid #bc2024;
+        transition: all .1s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    .panel-space {
+        padding: 30px 0;
+    }
+
+
+    .admission-btn {
+        border: 3px solid #bc2024;
+        color: #bc2024;
+        position: absolute;
+        right: 109px;
+    }
+
+    .admission-btn span {
+        background-color: #bc2024;
+        color: #fff;
+    }
+
+    .fixed-header .admission-btn {
+        border: 3px solid #bc2024;
+        color: #bc2024;
+        position: absolute;
+        right: 109px;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    .banner {
+        height: auto;
+        background-position: right;
+    }
+
+    .banner-content p {
+        margin-bottom: 20px;
+        width: 100%;
+
+    }
+
+    .banner-content h1 {
+        font-size: 27px;
+        margin-top: 0;
+    }
+
+    .learning-box {
+        border-left: 0;
+        border-bottom: 3px solid #aa1c9d;
+        min-height: 150px;
+    }
+
+    .industries-box .link-btn {
+        padding: 10px 7px;
+        font-size: 15px;
+    }
+
+    #footer .container>.row {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-panel figure img {
+        width: 100%;
+    }
+
+    .logo-slider .item {
+        height: 100px;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        color: #144993 !important;
+        border: 0;
+    }
+
+    .drop-down {
+        padding: 0 0 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .drop-down-list {
+        border-radius: 0;
+    }
+
+    .drop-down-list .nav-item .nav-link {
+        padding: 4px 23px !important;
+        margin: 0 !important;
+    }
+
+    .cms-banner {
+        padding-top: 0;
+    }
+
+    .video-cms-banner figure {
+        margin: 0;
+        padding-top: 61px;
+    }
+
+    .video-cms-banner {
+        height: 365px;
+    }
+
+    .video-cms-banner .blank-btn {
+        margin-top: 0;
+        margin-left: 0;
+        background-color: transparent !important;
+        color: #bc2024 !important;
+        border: 4px solid #bc2024 !important;
+        background: none;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: #bc2024;
+    }
+
+    .cms-banner .banner-content p {
+        width: 100%;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .success-stories .row {
+        margin-left: 0;
+    }
+
+    .get-in-tuch {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .contact-panel {
+        background-image: none !important;
+    }
+
+    .contact-panel h3 {
+        font-size: 46px;
+        margin-left: 0;
+        color: #bd2025;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-panel h3 br {
+        display: none;
+    }
+
+    .accordion-button h4 {
+        font-size: 18px;
+    }
+
+    .blog-cnt h6 {
+        font-size: 16px;
+    }
+
+    .blog-cnt h6 span {
+        display: none;
+    }
+
+    .blog-post figure {
+        height: 154px;
+    }
+
+    .blog-right-box figure {
+        width: 180px;
+        height: 110px;
+    }
+
+    .blog-banner {
+        height: 312px !important;
+        background-position: 64% !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin: 7px 11px;
+    }
+
+    .cmshero-infobox .bannr-title {
+        line-height: 50px;
+    }
+
+    .career-heropanel .submitBtn {
+        margin-top: 30px;
+    }
+
+    .line-panle {
+        width: 61%;
+        margin-left: 115px;
+    }
+
+    .line-panle.line-panle-two {
+        width: 55%;
+    }
+
+    .free-percent {
+        left: -16px;
+        top: -83px;
+    }
+
+    .student-with-bag {
+        text-align: left;
+        margin-top: -55px;
+    }
+
+    .student-with-bag img {
+        width: 100%;
+    }
+
+    .student-cont {
+        padding: 49px 20px 15px 20px;
+    }
+
+    .student-cont p {
+        width: 100%;
+    }
+
+    .homepage-banner {
+        background-color: #ebf9be;
+        background-image: none !important;
+        padding-bottom: 0 !important;
+    }
+
+    .homepage-banner .banner-content p {
+        color: #000 !important;
+    }
+
+    .homepage-banner .banner-content .link-btn {
+        color: #fff !important;
+        border: 1px solid #ffffff !important;
+        background: #bd2025;
+        padding: 10px 13px;
+    }
+
+    .banner-right-side {
+        display: block;
+    }
+
+    .homepage-banner .banner-content p {
+        margin-bottom: 29px;
+    }
+
+    .homepage-banner .banner-content .link-btn:hover {
+        background-color: #144993;
+        border-color: #144993;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .admission-btn,
+        .fixed-header .admission-btn {
+            border: 2px solid #bc2024;
+            color: #bc2024;
+            right: 92px;
+            top: -1px;
+            padding: 6px 22px 11px;
+            font-size: 14px;
+        }
+
+        .fixed-header .admission-btn span {
+            background-color: #bc2024;
+            color: #fff;
+        }
+
+        .h3,
+        h3 {
+            font-size: 20px !important;
+        }
+
+        .h5,
+        h5 {
+            font-size: 18px;
+        }
+
+        header {
+            background-color: #fff;
+        }
+
+        .banner {
+            height: auto;
+            background-position: right;
+            padding: 40px 0;
+            margin-top: 0;
+        }
+
+
+        .banner-content h1 {
+            font-size: 25px;
+            margin-top: 0px;
+            color: #fff;
+        }
+
+        .banner-content p {
+            margin-bottom: 20px;
+            width: 100%;
+            color: #fff !important;
+        }
+
+        .banner-content .link-btn {
+            color: #fff !important;
+            border: 1px solid #ffffff !important;
+            background: none;
+            -webkit-background-clip: unset;
+            -webkit-text-fill-color: #fff;
+        }
+
+        .banner-content .link-btn:hover {
+            background-color: transparent;
+            border-color: #fff;
+        }
+
+        .video-banenr {
+            border-right: 0;
+        }
+
+        .industries-box .link-btn {
+            padding: 10px 20px;
+        }
+
+        .scaner {
+            width: 100px !important;
+        }
+
+        .app-panel {
+            text-align: center;
+            padding: 6px 0 0 0;
+        }
+
+        .app-panel span {
+            margin: 0 25px;
+        }
+
+        .app-panel img {
+            width: 100px;
+        }
+
+        .mobile-panel {
+            padding: 30px 0;
+        }
+
+        .help-us-panel {
+            padding: 15px;
+            background-position: right;
+            background-image: none !important;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .help-us p br {
+            display: none;
+        }
+
+        .help-us-panel h3,
+        .help-us-panel p {
+            margin-bottom: 20px !important;
+        }
+
+        .link-btn {
+            font-size: 14px;
+        }
+
+        .video-panel .modal-content {
+            width: 96%;
+            max-width: 100%;
+        }
+
+        .video-panel .modal-content {
+            width: 96%;
+            max-width: 100%;
+            transform: translate(-52%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+
+        .video-panel .modal-content iframe {
+            height: 287px !important;
+        }
+
+        .user-link ul {
+            column-count: 1;
+        }
+
+        .copyright-panel p,
+        .copyright-panel a {
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .footer-link ul li:last-child a {
+            margin-bottom: 0;
+        }
+
+        .Unique-adva {
+            padding: 25px 8px;
+        }
+
+        .Unique-adva img {
+            width: 44px;
+        }
+
+        .hiring-boss .Unique-adva img {
+            width: 145px;
+        }
+
+        .Unique-adva p {
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .hiring-boss .Unique-adva p br {
+            display: none;
+        }
+
+        .hiring-boss .Unique-adva p {
+            font-size: 16px;
+        }
+
+        .wonner-cnt {
+            min-height: auto;
+        }
+
+        .wonner {
+            height: auto;
+            margin-bottom: 16px;
+        }
+
+        .team-overlay {
+            padding: 10px 15px 15px 15px;
+        }
+
+        .get-in-touch-panel {
+            background-image: none !important;
+            background-color: #efdcd5;
+        }
+
+        .find-position figure {
+            height: 110px;
+        }
+
+        .price-btn {
+            font-size: 15px;
+        }
+
+        .career-overlay h5 {
+            font-size: 14px;
+        }
+
+        .student-slider figure {
+            height: 115px;
+        }
+
+        .speaker-img {
+            display: none;
+        }
+
+        .speaker-panel {
+            padding: 20px;
+            margin-right: 0;
+            text-align: center;
+        }
+
+        .speaker-panel h4 {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .video-cms-banner figure {
+            margin: 0;
+            padding-top: 16px;
+        }
+
+        .online-offline-panel h5 {
+            font-size: 18px;
+        }
+
+        .program-iner-panel h4,
+        .program-iner-panel p {
+            font-size: 18px;
+        }
+
+        .program-iner-panel p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 12px;
+        }
+
+        .blank-btn {
+            background: #fff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #fff;
+            font-weight: 500;
+            border-color: #fff !important;
+            margin-left: 0;
+            color: #fff !important;
+        }
+
+        .enquiry:after {
+            display: none;
+        }
+
+        .enq-panel {
+            margin-top: 68px;
+        }
+
+        .enquiry .navbar-brand img {
+            width: 90px;
+        }
+
+        .learning-box {
+            min-height: auto;
+        }
+
+        .cms-banner .banner-content p {
+            -webkit-line-clamp: unset;
+        }
+
+        .testimonial-pera {
+            min-height: 233px;
+        }
+
+        .accordion-button {
+            padding: 11px 30px 11px 20px !important;
+        }
+
+        .accordion-button::after {
+            right: 20px;
+        }
+
+        .accordion-button h4 {
+            font-size: 16px;
+        }
+
+        .blog-box figure {
+            height: auto;
+        }
+
+        .blog-right-box figure,
+        .blog-post figure {
+            width: auto;
+            height: auto;
+        }
+
+        .cms-banner .input-group-append .btn {
+            border-color: #144993;
+            color: #fff;
+            background-color: #144993;
+        }
+
+        .enqure-now {
+            top: auto;
+            bottom: 50px;
+        }
+
+        .get-in-tuch {
+            padding: 20px;
+        }
+
+        .get-in-tuch .link-btn {
+            padding: 8px 13px;
+        }
+
+        .program-iner-panel figure {
+            padding: 0 15px;
+        }
+
+        .breakdown-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .items {
+            flex: 0 0 auto;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        .blog-banner {
+            height: auto !important;
+        }
+
+        .pratibhakhoj img {
+            width: 100%;
+            margin-top: 9px;
+        }
+
+        .top-sudent {
+            margin-top: 49px;
+        }
+
+        .free-percent {
+            left: 0px;
+            top: -66px;
+            width: 100px;
+        }
+
+        .student-cont {
+            padding: 42px 20px 15px 20px;
+        }
+
+        .student-with-bag img {
+            display: none;
+        }
+
+        .google-add p {
+            font-size: 18px;
+            line-height: 34px;
+        }
+
+        .bannr-title {
+            font-size: 30px;
+        }
+
+        .result-table .table>:not(caption)>*>* {
+            padding: 0.6rem 0.3rem;
+            border-bottom-width: 0;
+            font-size: 14px;
+            display: inline-block;
+            width: 50%;
+        }
+
+        th.text-success.text-center {
+            width: 100%;
+        }
+
+        .pratibha-result .mobile-reverce .row {
+            flex-direction: column;
+        }
+
+        .pratibha-resul-panel {
+            margin: 0 auto 30px;
+        }
+
+        .online-courses {
+            margin: 35px 0 0 0px;
+        }
+
+        .our-teachers .text {
+            margin-top: 0px;
+            float: none;
+        }
+
+        .cba-tutions .contact-form {
+            padding: 20px;
+        }
+
+        .What-learners-say-section {
+            padding-top: 40px;
+        }
+
+        .learners-say {
+            padding: 25px;
+            min-height: auto;
+        }
+
+        .teachers-text {
+            min-height: auto;
+        }
+
+        .What-learners-say {
+            padding: 50px 0;
+        }
+
+        .cba-tutions .row {
+            flex-direction: column-reverse;
+        }
+
+        .navbar-nav .nav-item .nav-link span i {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+
+        .w-50 {
+            width: 100% !important;
+        }
+
+        .franchise-section .form-control {
+            margin-bottom: 20px;
+        }
+
+        .cms-banner .banner-content h1 {
+            color: #fff;
+        }
+
+        .homepage-banner .banner-content h1 {
+            font-size: 30px;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:993px) {
+        .our-teachers .text {
+            margin-top: 0px;
+            float: none;
+        }
+    }
